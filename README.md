@@ -89,16 +89,15 @@ Lake Urmia is one of the largest hypersaline lakes in the Middle East and has ex
 
 ## Repository Structure
 
-The repository is organized as follows:
-Lake-Urmia-Climate-Water-Analysis/
-Code/
-├── GEE/
-│ └── Google Earth Engine scripts for satellite processing
-│
-└── Python/
-└── Data analysis, visualization, and machine learning models
-
----
+| Folder | Description |
+|--------|-------------|
+| `Code/GEE` | Google Earth Engine scripts for satellite image processing and water extraction |
+| `Code/Python` | Python scripts for data analysis, visualization, and machine learning |
+| `Data` | Climate datasets, water area datasets, and processed tables |
+| `Figures` | Scientific figures, maps, and visualization outputs |
+| `Results` | Model performance metrics, predictions, and statistical results |
+| `Notebook` | Jupyter notebooks for reproducible analysis |
+| `README.md` | Project documentation |
 
 ## Key Results
 
