@@ -156,7 +156,7 @@ Main findings include:
 - Identified relationships between lake surface changes and climate variables including precipitation, temperature, and drought indicators.
 - Developed machine learning models to predict lake water area variations.
 
-### Machine Learning Performance
+### Machine Learning Modeling
 
 Two predictive approaches were evaluated:
 
@@ -166,6 +166,55 @@ Two predictive approaches were evaluated:
 | Random Forest Regression | 0.93 | 53.90 |
 
 The Random Forest model achieved the best performance, demonstrating the potential of machine learning for environmental prediction and wetland monitoring.
+
+### 5. Machine Learning Modeling
+
+Predictive models were developed using:
+
+- Linear Regression
+- Random Forest Regression
+
+Model performance was evaluated using:
+
+- R²
+- RMSE
+- MAE
+
+---
+
+## Figures
+
+### Surface Water Dynamics (2016–2025)
+
+![Surface Water Dynamics](Figures/Lake_Urmia_Surface_Water_Dynamics_2016_2025.png)
+
+### Annual Rainfall Variation
+
+![Annual Rainfall](Figures/Annual_Rainfall_Variation_2016_2025.png)
+
+### Annual Temperature Variation
+
+![Annual Temperature](Figures/Annual_Temperature_Variation_2016_2025.png)
+
+### Correlation Heatmap
+
+![Correlation Heatmap](Figures/Correlation_Heatmap.png)
+
+---
+
+## Repository Structure
+
+| Folder | Description |
+|--------|-------------|
+| `Code/GEE` | Google Earth Engine scripts for satellite image processing and water extraction |
+| `Code/Python` | Python scripts for data analysis, visualization, and machine learning |
+| `Data` | Climate datasets, water area datasets, and processed tables |
+| `Figures` | Scientific figures, maps, and visualization outputs |
+| `Results` | Model performance metrics, predictions, and statistical results |
+| `Notebook` | Jupyter notebooks for reproducible analysis |
+| `README.md` | Project documentation |
+
+
 
 ### Validation
 
