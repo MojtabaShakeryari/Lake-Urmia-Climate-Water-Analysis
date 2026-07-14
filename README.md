@@ -10,8 +10,6 @@
 ![GIS](https://img.shields.io/badge/GIS-Environmental%20Analysis-yellow)
 
 
-Lake Urmia is one of the most important saline lakes in the Middle East...
-
 ## Overview
 
 Lake Urmia is one of the most important saline lakes in the Middle East and has experienced significant environmental changes during recent decades.
