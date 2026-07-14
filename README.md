@@ -1,7 +1,5 @@
 # Lake Urmia Environmental Monitoring (2016–2025)
 
-# Lake Urmia Environmental Monitoring (2016–2025)
-
 ![Python](https://img.shields.io/badge/Python-3.11-blue)
 ![Google Earth Engine](https://img.shields.io/badge/Google%20Earth%20Engine-Remote%20Sensing-green)
 ![Remote Sensing](https://img.shields.io/badge/Remote%20Sensing-Satellite%20Data-orange)
@@ -91,21 +89,7 @@ Lake Urmia is one of the largest hypersaline lakes in the Middle East and has ex
 
 ## Repository Structure
 
-```
-Lake_Urmia_Project/
-│
-├── Code/
-│   ├── GEE/
-│   └── Python/
-│
-├── Data/
-│
-├── Figures/
-│
-├── Results/
-│
-└── README.md
-```
+The repository is organized as follows:
 
 ---
 
