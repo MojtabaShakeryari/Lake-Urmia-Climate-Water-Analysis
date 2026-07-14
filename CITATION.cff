@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this repository in your research, please cite it as follows."
+
+authors:
+  - family-names: Shakeryari
+    given-names: Mojtaba
+
+title: "Lake Urmia Environmental Monitoring Using Remote Sensing and Machine Learning (2016-2025)"
+
+version: 1.0.0
+
+date-released: 2026-07-14
+
+url: "https://github.com/MojtabaShakeryari/Lake-Urmia-Climate-Water-Analysis"
+
+keywords:
+  - Remote Sensing
+  - GIS
+  - Machine Learning
+  - Climate Change
+  - Wetland Monitoring
+  - Lake Urmia
+
+license: "MIT"
