@@ -9,7 +9,6 @@
 ![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-F37626)
 ![GIS](https://img.shields.io/badge/GIS-Environmental%20Analysis-yellow)
 
-## Overview
 
 Lake Urmia is one of the most important saline lakes in the Middle East...
 
