@@ -200,9 +200,9 @@ Model performance was evaluated using:
 
 ![Correlation Heatmap](Figures/Correlation_Heatmap.png)
 
-### Future Surface Water Prediction (2026–2030)
+### Surface Water Forecast (2016–2030)
 
-![Future Prediction](Figures/Future_Surface_Water_Prediction_2026_2030.png)
+![Surface Water Forecast](Figures/Lake_Urmia_Surface_Water_Forecast_2016_2030.png)
 
 ---
 
