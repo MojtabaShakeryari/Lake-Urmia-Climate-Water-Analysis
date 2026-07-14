@@ -2,10 +2,23 @@
 
 ## Overview
 
-This repository presents a comprehensive environmental monitoring and data analysis workflow for Lake Urmia (Iran) using Google Earth Engine (GEE), Python, and Machine Learning techniques.
+## Overview
 
-The project integrates satellite remote sensing, climate data, statistical analysis, and predictive modeling to investigate long-term environmental changes affecting Lake Urmia between 2016 and 2025.
+Lake Urmia is one of the most important saline lakes in the Middle East and has experienced significant environmental changes during recent decades.
 
+This repository presents a data-driven framework for monitoring and analyzing Lake Urmia environmental dynamics from 2016 to 2025 by integrating satellite remote sensing, climate datasets, statistical analysis, and machine learning approaches.
+
+The workflow combines Google Earth Engine (GEE) and Python-based analysis to investigate surface water changes, climate–water interactions, drought impacts, and future environmental trends.
+
+The main components of this research include:
+
+- Satellite-based surface water extraction using Sentinel-2 imagery
+- Climate data analysis using precipitation, temperature, and evapotranspiration datasets
+- Drought assessment using SPEI indicators
+- Statistical trend and correlation analysis
+- Machine learning modeling for environmental prediction
+
+The objective is to develop a reproducible and transferable workflow for long-term wetland monitoring and climate impact assessment.
 ---
 
 ## Objectives
