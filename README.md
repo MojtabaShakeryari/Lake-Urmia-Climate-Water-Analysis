@@ -109,16 +109,37 @@ Lake_Urmia_Project/
 
 ---
 
-## Main Results
+## Key Results
 
-The project successfully generated:
+The analysis of Lake Urmia environmental dynamics during 2016–2025 revealed significant changes in surface water extent and strong interactions between climate variability and lake conditions.
 
-- Annual lake surface area (2016–2025)
-- Climate indicators
-- Correlation analysis
-- Machine Learning models
-- Future predictions
-- Publication-quality figures
+Main findings include:
+
+- Estimated annual surface water area using Sentinel-2 satellite imagery.
+- Detected a decreasing trend in Lake Urmia surface water extent during the study period.
+- Calculated an average annual water loss rate of approximately **48.7 km²/year**.
+- Identified relationships between lake surface changes and climate variables including precipitation, temperature, and drought indicators.
+- Developed machine learning models to predict lake water area variations.
+
+### Machine Learning Performance
+
+Two predictive approaches were evaluated:
+
+| Model | R² | RMSE |
+|---|---|---|
+| Linear Regression | 0.65 | 123.90 |
+| Random Forest Regression | 0.93 | 53.90 |
+
+The Random Forest model achieved the best performance, demonstrating the potential of machine learning for environmental prediction and wetland monitoring.
+
+### Validation
+
+Water extraction results were evaluated using independent reference datasets:
+
+- JRC Global Surface Water dataset
+- Dynamic World land cover dataset
+
+The validation analysis confirmed the reliability of the satellite-based water mapping approach.
 
 ---
 
