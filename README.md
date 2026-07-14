@@ -86,6 +86,51 @@ Lake Urmia is one of the largest hypersaline lakes in the Middle East and has ex
 - Future prediction
 
 ---
+## Research Workflow
+
+The complete workflow of this project consists of five main stages:
+
+### 1. Satellite Data Processing
+
+- Sentinel-2 Surface Reflectance data acquisition
+- Cloud filtering and preprocessing
+- Spectral index calculation (MNDWI and NDVI)
+- Surface water extraction
+
+### 2. Water Dynamics Analysis
+
+- Annual surface water area estimation (2016–2025)
+- Change detection analysis
+- Water loss and gain assessment
+- Validation using JRC Global Surface Water and Dynamic World datasets
+
+### 3. Climate Data Integration
+
+Climate variables were integrated to investigate environmental drivers:
+
+- CHIRPS precipitation
+- ERA5-Land temperature
+- MODIS evapotranspiration
+- SPEI drought indicators
+
+### 4. Statistical Analysis
+
+- Trend analysis
+- Correlation analysis
+- Climate–water relationship assessment
+
+### 5. Machine Learning Modeling
+
+Predictive models were developed using:
+
+- Linear Regression
+- Random Forest Regression
+
+Model performance was evaluated using:
+
+- R²
+- RMSE
+- MAE
 
 ## Repository Structure
 
