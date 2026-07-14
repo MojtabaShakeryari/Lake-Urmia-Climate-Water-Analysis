@@ -200,6 +200,10 @@ Model performance was evaluated using:
 
 ![Correlation Heatmap](Figures/Correlation_Heatmap.png)
 
+### Future Surface Water Prediction (2026–2030)
+
+![Future Prediction](Figures/Future_Surface_Water_Prediction_2026_2030.png)
+
 ---
 
 ## Repository Structure
