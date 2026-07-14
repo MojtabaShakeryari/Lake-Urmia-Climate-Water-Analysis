@@ -7,6 +7,7 @@
 ![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-F37626)
 ![GIS](https://img.shields.io/badge/GIS-Environmental%20Analysis-yellow)
 
+---
 
 ## Overview
 
@@ -21,10 +22,11 @@ The main components of this research include:
 - Satellite-based surface water extraction using Sentinel-2 imagery
 - Climate data analysis using precipitation, temperature, and evapotranspiration datasets
 - Drought assessment using SPEI indicators
-- Statistical trend and correlation analysis
+- Statistical correlation analysis
 - Machine learning modeling for environmental prediction
 
 The objective is to develop a reproducible and transferable workflow for long-term wetland monitoring and climate impact assessment.
+
 ---
 
 ## Objectives
@@ -115,7 +117,6 @@ Climate variables were integrated to investigate environmental drivers:
 
 ### 4. Statistical Analysis
 
-- Trend analysis
 - Correlation analysis
 - Climate–water relationship assessment
 
@@ -132,17 +133,25 @@ Model performance was evaluated using:
 - RMSE
 - MAE
 
+---
+
 ## Repository Structure
 
 | Folder | Description |
 |--------|-------------|
-| `Code/GEE` | Google Earth Engine scripts for satellite image processing and water extraction |
-| `Code/Python` | Python scripts for data analysis, visualization, and machine learning |
 | `Data` | Climate datasets, water area datasets, and processed tables |
 | `Figures` | Scientific figures, maps, and visualization outputs |
 | `Results` | Model performance metrics, predictions, and statistical results |
-| `Notebook` | Jupyter notebooks for reproducible analysis |
+| `Notebook` | Jupyter notebook for reproducible analysis |
 | `README.md` | Project documentation |
+
+---
+
+## Code Availability
+
+The complete processing scripts are not publicly available at this stage due to ongoing research development. Selected outputs and workflow descriptions are provided in this repository.
+
+---
 
 ## Key Results
 
@@ -152,11 +161,10 @@ Main findings include:
 
 - Estimated annual surface water area using Sentinel-2 satellite imagery.
 - Detected a decreasing trend in Lake Urmia surface water extent during the study period.
-- - Detected a decreasing trend in Lake Urmia surface water extent during the study period.
 - Identified relationships between lake surface changes and climate variables including precipitation, temperature, and drought indicators.
 - Developed machine learning models to predict lake water area variations.
 
-### Machine Learning Modeling
+### Model Performance
 
 Two predictive approaches were evaluated:
 
@@ -166,19 +174,6 @@ Two predictive approaches were evaluated:
 | Random Forest Regression | 0.93 | 53.90 |
 
 The Random Forest model achieved the best performance, demonstrating the potential of machine learning for environmental prediction and wetland monitoring.
-
-### 5. Machine Learning Modeling
-
-Predictive models were developed using:
-
-- Linear Regression
-- Random Forest Regression
-
-Model performance was evaluated using:
-
-- R²
-- RMSE
-- MAE
 
 ---
 
@@ -205,22 +200,7 @@ Model performance was evaluated using:
 ![Surface Water Forecast](Figures/Lake_Urmia_Surface_Water_Forecast_2016_2030.png)
 
 ---
-
-## Repository Structure
-
-| Folder | Description |
-|--------|-------------|
-| `Code/GEE` | Google Earth Engine scripts for satellite image processing and water extraction |
-| `Code/Python` | Python scripts for data analysis, visualization, and machine learning |
-| `Data` | Climate datasets, water area datasets, and processed tables |
-| `Figures` | Scientific figures, maps, and visualization outputs |
-| `Results` | Model performance metrics, predictions, and statistical results |
-| `Notebook` | Jupyter notebooks for reproducible analysis |
-| `README.md` | Project documentation |
-
-
-
-### Validation
+## Validation
 
 Water extraction results were evaluated using independent reference datasets:
 
@@ -240,6 +220,8 @@ The validation analysis confirmed the reliability of the satellite-based water m
 - Matplotlib
 - Scikit-learn
 - Jupyter Notebook
+
+---
 
 ## Future Research Directions
 
@@ -276,6 +258,8 @@ This project provides a foundation for further environmental monitoring and pred
 - Climate impact assessment
 - Data-driven water resource management
 
+---
+
 ## Project Status
 
 **Current status:** Active development
@@ -284,6 +268,7 @@ This repository represents an ongoing research project focused on environmental 
 
 Future updates will include additional statistical analyses, improved prediction models, and enhanced visualization outputs.
 
+---
 
 ## Author
 
@@ -312,11 +297,5 @@ If you use this workflow or dataset in your research, please cite this repositor
   title = {Lake Urmia Environmental Monitoring Using Remote Sensing and Machine Learning (2016--2025)},
   year = {2026},
   publisher = {GitHub},
-   url = {https://github.com/MojtabaShakeryari/Lake-Urmia-Climate-Water-Analysis}
-`}`
----
-## License
-
-This project is released for academic and research purposes.
-
-Please cite this repository if you use the workflow, methods, or outputs in your research.
+  url = {https://github.com/MojtabaShakeryari/Lake-Urmia-Climate-Water-Analysis}
+}
