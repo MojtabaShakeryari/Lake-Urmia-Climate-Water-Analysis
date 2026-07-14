@@ -152,30 +152,9 @@ Main findings include:
 
 - Estimated annual surface water area using Sentinel-2 satellite imagery.
 - Detected a decreasing trend in Lake Urmia surface water extent during the study period.
-- Calculated an average annual water loss rate of approximately **48.7 km²/year**.
+- - Detected a decreasing trend in Lake Urmia surface water extent during the study period.
 - Identified relationships between lake surface changes and climate variables including precipitation, temperature, and drought indicators.
 - Developed machine learning models to predict lake water area variations.
-
-## Visual Results
-
-### Lake Urmia Surface Water Dynamics (2016–2025)
-
-![Lake Urmia Surface Water Dynamics](Figures/Lake_Urmia_Surface_Water_Dynamics_2016_2025.png)
-
----
-
-### Relationship Between Lake Surface Water and Rainfall
-
-![Lake Urmia Water vs Rainfall](Figures/Lake_Urmia_Water_vs_Rainfall.png)
-
----
-
-### Environmental Variables Correlation Analysis
-
-![Correlation Heatmap](Figures/Correlation_Heatmap.png)
-
-
-
 
 ### Machine Learning Performance
 
@@ -244,19 +223,6 @@ This project provides a foundation for further environmental monitoring and pred
 - Climate impact assessment
 - Data-driven water resource management
 
-## Future Research Directions
-
-Planned future developments include:
-
-- Mann–Kendall Trend Analysis
-- Sen's Slope Estimator
-- Time-series forecasting
-- XGBoost modeling
-- SHAP feature importance
-- Interactive visualization dashboard
-
-
-
 ## Project Status
 
 **Current status:** Active development
@@ -294,7 +260,7 @@ If you use this workflow or dataset in your research, please cite this repositor
   year = {2026},
   publisher = {GitHub},
    url = {https://github.com/MojtabaShakeryari/Lake-Urmia-Climate-Water-Analysis}
-}
+`}`
 ---
 ## License
 
