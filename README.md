@@ -1,6 +1,17 @@
 # Lake Urmia Environmental Monitoring (2016–2025)
 
+# Lake Urmia Environmental Monitoring (2016–2025)
+
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![Google Earth Engine](https://img.shields.io/badge/Google%20Earth%20Engine-Remote%20Sensing-green)
+![Remote Sensing](https://img.shields.io/badge/Remote%20Sensing-Satellite%20Data-orange)
+![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Random%20Forest-red)
+![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-F37626)
+![GIS](https://img.shields.io/badge/GIS-Environmental%20Analysis-yellow)
+
 ## Overview
+
+Lake Urmia is one of the most important saline lakes in the Middle East...
 
 ## Overview
 
