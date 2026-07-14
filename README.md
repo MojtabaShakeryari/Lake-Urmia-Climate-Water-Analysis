@@ -193,16 +193,31 @@ Planned future developments include:
 
 **Mojtaba Shakeryari**
 
-M.Sc. Environmental Science
+M.Sc. Environmental Science  
+University of Tehran
 
 Research Interests:
 
 - Remote Sensing
-- GIS
+- Geographic Information Systems (GIS)
 - Machine Learning
-- Climate Change
+- Climate Change Impacts
 - Wetland Monitoring
 
+---
+
+## Citation
+
+If you use this workflow or dataset in your research, please cite this repository:
+
+```bibtex
+@misc{shakeryari2026lakeurmia,
+  author = {Shakeryari, Mojtaba},
+  title = {Lake Urmia Environmental Monitoring Using Remote Sensing and Machine Learning (2016--2025)},
+  year = {2026},
+  publisher = {GitHub},
+   url = {https://github.com/MojtabaShakeryari/Lake-Urmia-Climate-Water-Analysis}
+}
 ---
 
 ## License
