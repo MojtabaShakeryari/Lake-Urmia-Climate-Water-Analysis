@@ -121,6 +121,27 @@ Main findings include:
 - Identified relationships between lake surface changes and climate variables including precipitation, temperature, and drought indicators.
 - Developed machine learning models to predict lake water area variations.
 
+## Visual Results
+
+### Lake Urmia Surface Water Dynamics (2016–2025)
+
+![Lake Urmia Surface Water Dynamics](Figures/Lake_Urmia_Surface_Water_Dynamics_2016_2025.png)
+
+---
+
+### Relationship Between Lake Surface Water and Rainfall
+
+![Lake Urmia Water vs Rainfall](Figures/Lake_Urmia_Water_vs_Rainfall.png)
+
+---
+
+### Environmental Variables Correlation Analysis
+
+![Correlation Heatmap](Figures/Correlation_Heatmap.png)
+
+
+
+
 ### Machine Learning Performance
 
 Two predictive approaches were evaluated:
