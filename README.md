@@ -209,9 +209,42 @@ The validation analysis confirmed the reliability of the satellite-based water m
 - Scikit-learn
 - Jupyter Notebook
 
----
+## Future Research Directions
 
-## Future Improvements
+This project provides a foundation for further environmental monitoring and predictive modeling of Lake Urmia. Future developments will focus on:
+
+### Advanced Trend Analysis
+
+- Mann–Kendall statistical trend test
+- Sen's slope estimator
+- Long-term change assessment
+
+### Advanced Machine Learning
+
+- XGBoost modeling
+- Hyperparameter optimization
+- Feature importance analysis
+- SHAP-based model interpretation
+
+### Time-Series Forecasting
+
+- Future lake surface water prediction
+- Climate scenario analysis
+- Long-term environmental forecasting
+
+### Remote Sensing Improvements
+
+- Integration of additional satellite datasets
+- Higher-resolution water mapping
+- Automated monitoring workflows using Google Earth Engine
+
+### Environmental Applications
+
+- Wetland conservation planning
+- Climate impact assessment
+- Data-driven water resource management
+
+## Future Research Directions
 
 Planned future developments include:
 
@@ -222,7 +255,16 @@ Planned future developments include:
 - SHAP feature importance
 - Interactive visualization dashboard
 
----
+
+
+## Project Status
+
+**Current status:** Active development
+
+This repository represents an ongoing research project focused on environmental monitoring of Lake Urmia using remote sensing, climate data analysis, and machine learning approaches.
+
+Future updates will include additional statistical analyses, improved prediction models, and enhanced visualization outputs.
+
 
 ## Author
 
@@ -254,7 +296,8 @@ If you use this workflow or dataset in your research, please cite this repositor
    url = {https://github.com/MojtabaShakeryari/Lake-Urmia-Climate-Water-Analysis}
 }
 ---
-
 ## License
 
-This repository is intended for academic and research purposes.
+This project is released for academic and research purposes.
+
+Please cite this repository if you use the workflow, methods, or outputs in your research.
