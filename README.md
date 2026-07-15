@@ -48,7 +48,7 @@ Lake Urmia is one of the largest hypersaline lakes in the Middle East and an imp
 
 The study area map was generated using Sentinel-2 MSI imagery (ESA) and illustrates the spatial location and environmental characteristics of Lake Urmia.
 
-![Study Area Map](Figures/Lake_Urmia_Study_Area_Map.png)
+![Study Area Map](./Figures/Lake_Urmia_Study_Area_Map.png)
 ---
 
 ## Data Sources
