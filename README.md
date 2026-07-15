@@ -44,8 +44,11 @@ The main objectives of this project are:
 
 ## Study Area
 
-Lake Urmia is one of the largest hypersaline lakes in the Middle East and has experienced dramatic shrinkage during recent decades due to climate variability and human activities.
+Lake Urmia is one of the largest hypersaline lakes in the Middle East and an important ecological system in Iran. The lake has experienced severe surface water reduction during recent decades due to the combined effects of climate variability and anthropogenic pressures.
 
+The study area map was generated using Sentinel-2 MSI imagery (ESA) and illustrates the spatial location and environmental characteristics of Lake Urmia.
+
+![Study Area Map](Figures/Lake_Urmia_Study_Area_Map.png)
 ---
 
 ## Data Sources
