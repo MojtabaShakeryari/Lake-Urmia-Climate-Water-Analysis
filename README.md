@@ -49,6 +49,7 @@ Lake Urmia is one of the largest hypersaline lakes in the Middle East and an imp
 The study area map was generated using Sentinel-2 MSI imagery (ESA) and illustrates the spatial location and environmental characteristics of Lake Urmia.
 
 ![Study Area Map](./Figures/Lake_Urmia_Study_Area_Map.png)
+
 ---
 
 ## Data Sources
@@ -63,7 +64,8 @@ The study area map was generated using Sentinel-2 MSI imagery (ESA) and illustra
 
 - CHIRPS Precipitation
 - ERA5-Land Temperature
-- MOD16 Evapotranspiration
+- MOD16 Evapotranspiration (MODIS-based)
+- SPEI drought indicators
 
 ---
 
@@ -83,6 +85,7 @@ The study area map was generated using Sentinel-2 MSI imagery (ESA) and illustra
 ### Python Analysis
 
 - Data preprocessing
+- Climate data integration
 - Exploratory Data Analysis (EDA)
 - Correlation analysis
 - Linear Regression
@@ -91,39 +94,40 @@ The study area map was generated using Sentinel-2 MSI imagery (ESA) and illustra
 - Future prediction
 
 ---
-## Research Workflow
+
+# Research Workflow
 
 The complete workflow of this project consists of five main stages:
 
-### 1. Satellite Data Processing
+## 1. Satellite Data Processing
 
 - Sentinel-2 Surface Reflectance data acquisition
 - Cloud filtering and preprocessing
 - Spectral index calculation (MNDWI and NDVI)
 - Surface water extraction
 
-### 2. Water Dynamics Analysis
+## 2. Water Dynamics Analysis
 
 - Annual surface water area estimation (2016–2025)
 - Change detection analysis
 - Water loss and gain assessment
 - Validation using JRC Global Surface Water and Dynamic World datasets
 
-### 3. Climate Data Integration
+## 3. Climate Data Integration
 
 Climate variables were integrated to investigate environmental drivers:
 
 - CHIRPS precipitation
 - ERA5-Land temperature
-- MODIS evapotranspiration
+- MOD16 evapotranspiration
 - SPEI drought indicators
 
-### 4. Statistical Analysis
+## 4. Statistical Analysis
 
 - Correlation analysis
 - Climate–water relationship assessment
 
-### 5. Machine Learning Modeling
+## 5. Machine Learning Modeling
 
 Predictive models were developed using:
 
@@ -156,7 +160,7 @@ The complete processing scripts are not publicly available at this stage due to 
 
 ---
 
-## Key Results
+# Key Results
 
 The analysis of Lake Urmia environmental dynamics during 2016–2025 revealed significant changes in surface water extent and strong interactions between climate variability and lake conditions.
 
@@ -167,54 +171,63 @@ Main findings include:
 - Identified relationships between lake surface changes and climate variables including precipitation, temperature, and drought indicators.
 - Developed machine learning models to predict lake water area variations.
 
-### Model Performance
+## Model Performance
 
 Two predictive approaches were evaluated:
 
-| Model | R² | RMSE |
-|---|---|---|
-| Linear Regression | 0.65 | 123.90 |
-| Random Forest Regression | 0.93 | 53.90 |
+| Model | R² | RMSE | MAE |
+|---|---|---|---|
+| Linear Regression | 0.65 | 123.90 | 101.73 |
+| Random Forest Regression | 0.93 | 53.90 | 44.46 |
 
 The Random Forest model achieved the best performance, demonstrating the potential of machine learning for environmental prediction and wetland monitoring.
 
+Additional findings:
+
+- Estimated annual surface water change rate:
+
+**-48.72 km²/year**
+
 ---
 
-## Figures
+# Figures
 
-### Surface Water Dynamics (2016–2025)
+## Surface Water Dynamics (2016–2025)
 
 ![Surface Water Dynamics](Figures/Lake_Urmia_Surface_Water_Dynamics_2016_2025.png)
 
-### Annual Rainfall Variation
+## Annual Rainfall Variation
 
 ![Annual Rainfall](Figures/Annual_Rainfall_Variation_2016_2025.png)
 
-### Annual Temperature Variation
+## Annual Temperature Variation
 
 ![Annual Temperature](Figures/Annual_Temperature_Variation_2016_2025.png)
 
-### Correlation Heatmap
+## Correlation Heatmap
 
 ![Correlation Heatmap](Figures/Correlation_Heatmap.png)
 
-### Surface Water Forecast (2016–2030)
+## Surface Water Forecast (2016–2030)
 
 ![Surface Water Forecast](Figures/Lake_Urmia_Surface_Water_Forecast_2016_2030.png)
 
 ---
-## Validation
+
+# Validation
 
 Water extraction results were evaluated using independent reference datasets:
 
 - JRC Global Surface Water dataset
 - Dynamic World land cover dataset
 
+Validation was performed by comparing satellite-derived water maps with independent global surface water products.
+
 The validation analysis confirmed the reliability of the satellite-based water mapping approach.
 
 ---
 
-## Tools
+# Tools
 
 - Google Earth Engine
 - Python
@@ -226,36 +239,38 @@ The validation analysis confirmed the reliability of the satellite-based water m
 
 ---
 
-## Future Research Directions
+# Future Research Directions
 
-This project provides a foundation for further environmental monitoring and predictive modeling of Lake Urmia. Future developments will focus on:
+This project provides a foundation for further environmental monitoring and predictive modeling of Lake Urmia.
 
-### Advanced Trend Analysis
+Future developments will focus on:
+
+## Advanced Trend Analysis
 
 - Mann–Kendall statistical trend test
 - Sen's slope estimator
 - Long-term change assessment
 
-### Advanced Machine Learning
+## Advanced Machine Learning
 
 - XGBoost modeling
 - Hyperparameter optimization
 - Feature importance analysis
 - SHAP-based model interpretation
 
-### Time-Series Forecasting
+## Time-Series Forecasting
 
 - Future lake surface water prediction
 - Climate scenario analysis
 - Long-term environmental forecasting
 
-### Remote Sensing Improvements
+## Remote Sensing Improvements
 
 - Integration of additional satellite datasets
 - Higher-resolution water mapping
 - Automated monitoring workflows using Google Earth Engine
 
-### Environmental Applications
+## Environmental Applications
 
 - Wetland conservation planning
 - Climate impact assessment
@@ -263,9 +278,9 @@ This project provides a foundation for further environmental monitoring and pred
 
 ---
 
-## Project Status
+# Project Status
 
-**Current status:** Active development
+**Current status: Active development**
 
 This repository represents an ongoing research project focused on environmental monitoring of Lake Urmia using remote sensing, climate data analysis, and machine learning approaches.
 
@@ -273,7 +288,7 @@ Future updates will include additional statistical analyses, improved prediction
 
 ---
 
-## Author
+# Author
 
 **Mojtaba Shakeryari**
 
@@ -290,7 +305,7 @@ Research Interests:
 
 ---
 
-## Citation
+# Citation
 
 If you use this workflow or dataset in your research, please cite this repository:
 
@@ -302,3 +317,4 @@ If you use this workflow or dataset in your research, please cite this repositor
   publisher = {GitHub},
   url = {https://github.com/MojtabaShakeryari/Lake-Urmia-Climate-Water-Analysis}
 }
+```
