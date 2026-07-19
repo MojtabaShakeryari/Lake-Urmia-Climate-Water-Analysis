@@ -158,24 +158,24 @@ The following methods were applied:
 
 ## Trend Analysis Results (Mann–Kendall and Sen's Slope)
 
-To evaluate temporal trends of environmental variables, the non-parametric Mann–Kendall test and Sen's slope estimator were applied.
+The non-parametric Mann–Kendall test and Sen's slope estimator were applied to evaluate temporal trends of environmental variables during the period 2016–2025.
 
-The Mann–Kendall test was used to detect statistically significant monotonic trends, while Sen's slope estimator was used to quantify the magnitude and direction of temporal changes during the study period (2016–2025).
+The Mann–Kendall test was used to detect statistically significant monotonic trends, while Sen's slope estimator quantified the magnitude and direction of temporal changes.
 
-The trend analysis results are summarized below:
+The results are summarized below:
 
-| Variable | Mann–Kendall p-value | Sen's Slope | Trend |
-|----------|----------------------|-------------|-------|
-| Surface Water Area | 0.107 | -54.34 km²/year | Decreasing |
-| Rainfall | 0.371 | -8.27 mm/year | Decreasing |
-| Temperature | 0.152 | +0.111 °C/year | Increasing |
+| Variable | p-value | Sen's Slope | Interpretation |
+|----------|---------|-------------|----------------|
+| Surface Water Area | 0.107 | -54.34 km²/year | No significant trend (decreasing tendency) |
+| Rainfall | 0.371 | -8.27 mm/year | No significant trend (decreasing tendency) |
+| Temperature | 0.152 | +0.111 °C/year | No significant trend (increasing tendency) |
 | SPEI | 1.000 | +0.0005 | No significant trend |
 
-The results indicate a decreasing tendency in Lake Urmia surface water area and rainfall, while temperature shows an increasing tendency during 2016–2025.
+Although decreasing and increasing tendencies were observed, none of the trends were statistically significant at the 95% confidence level (p < 0.05).
 
-However, none of the detected trends reached statistical significance at the 95% confidence level (p < 0.05). Therefore, these trends should be interpreted as short-term variations due to the limited Sentinel-2 observation period.
+The results indicate short-term environmental variability during the Sentinel-2 observation period. Longer-term satellite observations and additional environmental variables are recommended for more robust trend assessment.
 
-Longer-term satellite observations and additional environmental variables are recommended for more robust trend assessment.
+---
 
 ## 5. Machine Learning Modeling
 
@@ -198,7 +198,7 @@ Model performance was evaluated using:
 |--------|-------------|
 | `Data` | Climate datasets, water area datasets, and processed tables |
 | `Figures` | Scientific figures, maps, and visualization outputs |
-| `Results` | Model performance metrics and prediction outputs |
+| `Results` | Model performance metrics, prediction outputs, and statistical analysis results |
 | `Notebook` | Jupyter notebooks for reproducible analysis |
 | `README.md` | Project documentation |
 
