@@ -166,7 +166,7 @@ The results are summarized below:
 
 | Variable | p-value | Sen's Slope | Interpretation |
 |----------|---------|-------------|----------------|
-| Surface Water Area | 0.107 | -54.34 km²/year | No significant trend (decreasing tendency) |
+| Surface Water Area (km²) | 0.107 | -54.34 km²/year | No significant trend (decreasing tendency) |
 | Rainfall | 0.371 | -8.27 mm/year | No significant trend (decreasing tendency) |
 | Temperature | 0.152 | +0.111 °C/year | No significant trend (increasing tendency) |
 | SPEI | 1.000 | +0.0005 | No significant trend |
