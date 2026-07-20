@@ -111,17 +111,19 @@ Python was used for data analysis and modeling:
 
 # Research Workflow
 
-![Lake Urmia Environmental Monitoring Workflow](Figures/Lake_Urmia_Workflow.png)
+![Lake Urmia Environmental Monitoring Workflow](./Figures/Lake_Urmia_Workflow.png)
 
-The complete workflow consists of five major stages:
+The complete workflow integrates satellite remote sensing, climate datasets, statistical analysis, and machine learning approaches to evaluate Lake Urmia environmental dynamics during 2016–2025.
+
+The workflow consists of five main stages:
 
 ## 1. Satellite Data Processing
 
-- Sentinel-2 MSI data acquisition
-- Cloud filtering
-- Spectral index calculation
-- MNDWI-based water extraction
-- NDVI masking
+- Sentinel-2 MSI image acquisition using Google Earth Engine
+- Cloud filtering and preprocessing
+- Spectral index calculation (MNDWI and NDVI)
+- Water extraction threshold optimization
+- Annual surface water estimation
 
 ---
 
@@ -130,7 +132,9 @@ The complete workflow consists of five major stages:
 - Annual water area estimation (2016–2025)
 - Surface water change detection
 - Water loss assessment
-- Validation using JRC Global Surface Water and Dynamic World datasets
+- Validation using independent datasets:
+  - JRC Global Surface Water
+  - Dynamic World
 
 ---
 
@@ -145,41 +149,20 @@ Environmental drivers were analyzed using:
 
 ---
 
-## 4. Statistical Analysis
+## 4. Statistical Trend Analysis
 
-The following methods were applied:
+The environmental variables were evaluated using:
 
 - Correlation analysis
 - Climate–water relationship assessment
-- Mann–Kendall trend analysis
+- Mann–Kendall trend test
 - Sen's slope estimation
 
 ---
 
-## Trend Analysis Results (Mann–Kendall and Sen's Slope)
+## 5. Machine Learning Modeling and Prediction
 
-The non-parametric Mann–Kendall test and Sen's slope estimator were applied to evaluate temporal trends of environmental variables during the period 2016–2025.
-
-The Mann–Kendall test was used to detect statistically significant monotonic trends, while Sen's slope estimator quantified the magnitude and direction of temporal changes.
-
-The results are summarized below:
-
-| Variable | p-value | Sen's Slope | Interpretation |
-|----------|---------|-------------|----------------|
-| Surface Water Area (km²) | 0.107 | -54.34 km²/year | No significant trend (decreasing tendency) |
-| Rainfall | 0.371 | -8.27 mm/year | No significant trend (decreasing tendency) |
-| Temperature | 0.152 | +0.111 °C/year | No significant trend (increasing tendency) |
-| SPEI | 1.000 | +0.0005 | No significant trend |
-
-Although decreasing and increasing tendencies were observed, none of the trends were statistically significant at the 95% confidence level (p < 0.05).
-
-The results indicate short-term environmental variability during the Sentinel-2 observation period. Longer-term satellite observations and additional environmental variables are recommended for more robust trend assessment.
-
----
-
-## 5. Machine Learning Modeling
-
-Predictive models were developed using:
+Predictive models were developed using Python:
 
 - Linear Regression
 - Random Forest Regression
@@ -190,7 +173,7 @@ Model performance was evaluated using:
 - RMSE
 - MAE
 
----
+The final outputs include environmental trend assessment, water area prediction, and future water condition scenarios.
 
 # Repository Structure
 
