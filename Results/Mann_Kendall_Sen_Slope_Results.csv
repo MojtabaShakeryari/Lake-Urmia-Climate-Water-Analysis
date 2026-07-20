@@ -1,0 +1,5 @@
+Environmental_Variable,Mann_Kendall_Trend,MK_p_value,Sen_Slope,Tau
+Water_Area_km2,No significant trend,0.107404636,-54.33654589,-0.422222222
+Rainfall_mm,No significant trend,0.37109337,-8.2655,-0.244444444
+Temperature_C,No significant trend,0.152406284,0.110875,0.377777778
+SPEI_Summer,No significant trend,1,0.0005,0.022222222
