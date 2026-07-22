@@ -13,7 +13,7 @@
 
 Lake Urmia is one of the most important hypersaline lakes in the Middle East and has experienced significant environmental changes during recent decades.
 
-This repository presents a data-driven framework for monitoring and analyzing Lake Urmia environmental dynamics during 2016–2025 by integrating satellite remote sensing, climate datasets, statistical analysis, and machine learning approaches.
+This repository presents a remote sensing and data-driven framework for monitoring and analyzing Lake Urmia environmental dynamics during 2016–2025 by integrating satellite imagery, climate datasets, statistical analysis, and machine learning approaches.
 
 The workflow combines Google Earth Engine (GEE) and Python-based analysis to investigate:
 
@@ -30,7 +30,7 @@ The main components of this research include:
 - Statistical trend analysis using Mann–Kendall test and Sen's slope estimator
 - Machine learning modeling for water area estimation and prediction
 
-The objective is to develop a reproducible and transferable framework for long-term wetland monitoring and climate impact assessment.
+The objective is to develop a reproducible framework for long-term wetland monitoring and climate impact assessment.
 
 ---
 
@@ -42,9 +42,85 @@ The main objectives of this project are:
 - Analyze environmental changes during 2016–2025
 - Investigate climate impacts on lake surface variations
 - Evaluate drought conditions using SPEI indicators
-- Analyze environmental trends using statistical methods
+- Detect environmental trends using statistical methods
 - Develop machine learning models for water area prediction
 - Create a reproducible remote sensing workflow for wetland monitoring
+
+---
+
+# Research Workflow
+
+![Lake Urmia Environmental Monitoring Workflow](./Figures/Lake_Urmia_Workflow.png)
+
+The workflow integrates satellite remote sensing, climate datasets, statistical trend analysis, and machine learning modeling to evaluate Lake Urmia environmental dynamics during 2016–2025.
+
+The main processing steps include:
+
+## 1. Satellite Data Acquisition and Pre-processing
+
+- Sentinel-2 MSI image acquisition using Google Earth Engine
+- Cloud masking and quality filtering
+- Seasonal image compositing
+- Preparation of analysis-ready satellite datasets
+
+---
+
+## 2. Surface Water Extraction and Validation
+
+- Water extraction using MNDWI and NDVI spectral indices
+- Threshold optimization for water classification
+- Annual surface water area calculation
+- Accuracy assessment using independent datasets:
+
+  - JRC Global Surface Water
+  - Dynamic World
+
+---
+
+## 3. Surface Water Dynamics Analysis
+
+- Annual water area estimation (2016–2025)
+- Temporal change detection
+- Assessment of surface water loss patterns
+
+---
+
+## 4. Climate Data Integration
+
+Environmental drivers were analyzed using:
+
+- CHIRPS precipitation
+- ERA5-Land temperature
+- MOD16 evapotranspiration
+- SPEI drought indicators
+
+---
+
+## 5. Statistical Trend Analysis
+
+Temporal trends and environmental relationships were evaluated using:
+
+- Correlation analysis
+- Mann–Kendall trend test
+- Sen's slope estimator
+- Climate–water relationship assessment
+
+---
+
+## 6. Machine Learning Modeling and Prediction
+
+Predictive models were developed using Python:
+
+- Linear Regression
+- Random Forest Regression
+
+Model performance was evaluated using:
+
+- R²
+- RMSE
+- MAE
+
+The models were used to analyze relationships between environmental variables and lake water area variations and to generate future water condition scenarios.
 
 ---
 
@@ -84,8 +160,7 @@ The study area map was generated using Sentinel-2 MSI imagery and represents the
 Google Earth Engine was used for satellite-based processing:
 
 - Sentinel-2 image acquisition
-- Cloud filtering and preprocessing
-- Seasonal image compositing
+- Cloud masking and preprocessing
 - MNDWI calculation
 - NDVI-based masking
 - Threshold optimization
@@ -97,104 +172,19 @@ Google Earth Engine was used for satellite-based processing:
 
 ## Python-Based Analysis
 
-Python was used for environmental analysis and machine learning modeling:
+Python was used for environmental analysis and modeling:
 
 - Data preprocessing
 - Climate data integration
 - Exploratory Data Analysis (EDA)
 - Correlation analysis
-- Mann–Kendall trend analysis
+- Statistical trend analysis
+- Mann–Kendall test
 - Sen's slope estimation
 - Linear Regression modeling
 - Random Forest Regression
 - Model evaluation
 - Future prediction
-
----
-
-# Research Workflow
-
-![Lake Urmia Environmental Monitoring Workflow](./Figures/Lake_Urmia_Workflow.png)
-
-The complete workflow integrates satellite remote sensing, climate datasets, statistical analysis, and machine learning approaches to evaluate Lake Urmia environmental dynamics during 2016–2025.
-
-## 1. Satellite Data Acquisition and Pre-processing
-
-- Sentinel-2 MSI image acquisition using Google Earth Engine
-- Cloud masking and quality filtering
-- Seasonal image preparation
-- Generation of analysis-ready satellite datasets
-
----
-
-## 2. Surface Water Extraction and Validation
-
-- Water extraction using MNDWI and NDVI spectral indices
-- Threshold optimization for water classification
-- Annual surface water area calculation
-- Accuracy assessment using independent datasets:
-
-  - JRC Global Surface Water
-  - Dynamic World
-
----
-
-## 3. Surface Water Dynamics Analysis
-
-- Annual water area estimation (2016–2025)
-- Temporal change detection
-- Assessment of water loss patterns
-
----
-
-## 4. Climate Data Integration
-
-Environmental drivers were analyzed using:
-
-- CHIRPS precipitation
-- ERA5-Land temperature
-- MOD16 evapotranspiration
-- SPEI drought indicators
-
----
-
-## 5. Statistical Trend Analysis
-
-Environmental variables were evaluated using:
-
-- Correlation analysis
-- Climate–water relationship assessment
-- Mann–Kendall trend test
-- Sen's slope estimator
-
----
-
-## 6. Machine Learning Modeling and Prediction
-
-Predictive models were developed using Python:
-
-- Linear Regression
-- Random Forest Regression
-
-Model performance was evaluated using:
-
-- R²
-- RMSE
-- MAE
-
-The models were used to analyze the relationship between environmental variables and lake water area variations and to generate future water condition scenarios.
-
----
-
-## 7. Visualization and Reporting
-
-Final outputs include:
-
-- Water area time-series analysis
-- Climate trend analysis
-- Statistical results
-- Model performance evaluation
-- Scientific figures and maps
 
 ---
 
